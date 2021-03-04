@@ -1,0 +1,42 @@
+{
+  "name": "get-params-for-iframe",
+  "version": "0.0.1",
+  "description": "You can get parameters from url, when you use iframe for it. If there were parent web site and embed other web site using iframe tag, you can get parameters after question mark. And it gives you how to use this package in ReadMe.md file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuePark/get-params-for-iframe.git"
+  },
+  "keywords": [
+    "get-params",
+    "params",
+    "url",
+    "params",
+    "url",
+    "url",
+    "parameter",
+    "parameter",
+    "parameters",
+    "get",
+    "parameter",
+    "from",
+    "url",
+    "get",
+    "parameters",
+    "from",
+    "url",
+    "get",
+    "params",
+    "from",
+    "url"
+  ],
+  "author": "Gray Gyuha Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuePark/get-params-for-iframe/issues"
+  },
+  "homepage": "https://github.com/QuePark/get-params-for-iframe#readme"
+}

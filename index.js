@@ -9,9 +9,13 @@ module.exports = {
 		};
 		if (!url) return new Error('there is no query.');
 		if (url.includes('&')) {
-			url.split('&').forEach((x) => inputData(x.split('=')));
+			url.split('&').forEach((x) => {
+				const [param, value] = x.split('=');
+				inputData(param, value);
+			});
 		} else {
-			inputData(url.split('='));
+			const [param, value] = url.split('=');
+			inputData(param, value);
 		}
 		return result;
 	},
